@@ -15,11 +15,11 @@ function Cart({ cart, dispatch }) {
       <ProductTable>
         <thead>
           <tr>
-            <th />
+            <th aria-label="none" />
             <th>PRODUTO</th>
             <th>QTD</th>
             <th>SUBTOTAL</th>
-            <th />
+            <th aria-label="none" />
           </tr>
         </thead>
         <tbody>
